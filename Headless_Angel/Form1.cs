@@ -69,5 +69,15 @@ namespace Headless_Angel
             }
             
         }
+
+        private void MulteplEvent(object sender, EventArgs e)
+        {
+            if (InputValue())
+            {
+                int sum = x.Multipl((int)TextBox1.Value, (int)Textbox2.Value);
+                MessageBox.Show("" + sum);
+
+            }
+        }
     }
 }

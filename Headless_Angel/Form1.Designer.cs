@@ -124,6 +124,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "*";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.MulteplEvent);
             // 
             // Form1
             // 
