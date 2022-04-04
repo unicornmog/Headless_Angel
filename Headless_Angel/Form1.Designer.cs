@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.TextBox1 = new System.Windows.Forms.NumericUpDown();
             this.Textbox2 = new System.Windows.Forms.NumericUpDown();
-            this.Plus = new System.Windows.Forms.Button();
+            this.plus = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -41,7 +41,7 @@
             // 
             // TextBox1
             // 
-            this.TextBox1.AccessibleName = "NumPad1";
+            this.TextBox1.AccessibleName = "TextBox1";
             this.TextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TextBox1.ForeColor = System.Drawing.Color.Cornsilk;
@@ -54,7 +54,7 @@
             // Textbox2
             // 
             this.Textbox2.AccessibleDescription = "";
-            this.Textbox2.AccessibleName = "Numpad2";
+            this.Textbox2.AccessibleName = "Textbox2";
             this.Textbox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.Textbox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Textbox2.ForeColor = System.Drawing.Color.Cornsilk;
@@ -64,21 +64,21 @@
             this.Textbox2.TabIndex = 1;
             this.Textbox2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
             // 
-            // Plus
+            // plus
             // 
-            this.Plus.AccessibleName = "Plus";
-            this.Plus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.Plus.FlatAppearance.BorderSize = 0;
-            this.Plus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Plus.ForeColor = System.Drawing.Color.Snow;
-            this.Plus.Location = new System.Drawing.Point(12, 82);
-            this.Plus.Name = "Plus";
-            this.Plus.Size = new System.Drawing.Size(60, 33);
-            this.Plus.TabIndex = 2;
-            this.Plus.Text = "+";
-            this.Plus.UseVisualStyleBackColor = false;
-            this.Plus.Click += new System.EventHandler(this.button1_Click);
+            this.plus.AccessibleName = "plus1";
+            this.plus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.plus.FlatAppearance.BorderSize = 0;
+            this.plus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.plus.ForeColor = System.Drawing.Color.Snow;
+            this.plus.Location = new System.Drawing.Point(12, 82);
+            this.plus.Name = "plus";
+            this.plus.Size = new System.Drawing.Size(60, 33);
+            this.plus.TabIndex = 2;
+            this.plus.Text = "+";
+            this.plus.UseVisualStyleBackColor = false;
+            this.plus.Click += new System.EventHandler(this.PlusEvent);
             // 
             // button2
             // 
@@ -109,7 +109,6 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "/";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -135,7 +134,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.Plus);
+            this.Controls.Add(this.plus);
             this.Controls.Add(this.Textbox2);
             this.Controls.Add(this.TextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -154,7 +153,7 @@
 
         private System.Windows.Forms.NumericUpDown TextBox1;
         private System.Windows.Forms.NumericUpDown Textbox2;
-        private System.Windows.Forms.Button Plus;
+        private System.Windows.Forms.Button plus;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
