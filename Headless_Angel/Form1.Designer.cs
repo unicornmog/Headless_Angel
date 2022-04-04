@@ -29,56 +29,56 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
+            this.TextBox1 = new System.Windows.Forms.NumericUpDown();
+            this.Textbox2 = new System.Windows.Forms.NumericUpDown();
+            this.Plus = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TextBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Textbox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // numericUpDown1
+            // TextBox1
             // 
-            this.numericUpDown1.AccessibleName = "NumPad1";
-            this.numericUpDown1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown1.ForeColor = System.Drawing.Color.Cornsilk;
-            this.numericUpDown1.Location = new System.Drawing.Point(12, 19);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(258, 16);
-            this.numericUpDown1.TabIndex = 0;
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            this.TextBox1.AccessibleName = "NumPad1";
+            this.TextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TextBox1.ForeColor = System.Drawing.Color.Cornsilk;
+            this.TextBox1.Location = new System.Drawing.Point(12, 19);
+            this.TextBox1.Name = "TextBox1";
+            this.TextBox1.Size = new System.Drawing.Size(258, 16);
+            this.TextBox1.TabIndex = 0;
+            this.TextBox1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
-            // numericUpDown2
+            // Textbox2
             // 
-            this.numericUpDown2.AccessibleDescription = "";
-            this.numericUpDown2.AccessibleName = "Numpad2";
-            this.numericUpDown2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.numericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown2.ForeColor = System.Drawing.Color.Cornsilk;
-            this.numericUpDown2.Location = new System.Drawing.Point(12, 45);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(258, 16);
-            this.numericUpDown2.TabIndex = 1;
-            this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
+            this.Textbox2.AccessibleDescription = "";
+            this.Textbox2.AccessibleName = "Numpad2";
+            this.Textbox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.Textbox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Textbox2.ForeColor = System.Drawing.Color.Cornsilk;
+            this.Textbox2.Location = new System.Drawing.Point(12, 45);
+            this.Textbox2.Name = "Textbox2";
+            this.Textbox2.Size = new System.Drawing.Size(258, 16);
+            this.Textbox2.TabIndex = 1;
+            this.Textbox2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
             // 
-            // button1
+            // Plus
             // 
-            this.button1.AccessibleName = "Plus";
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Snow;
-            this.button1.Location = new System.Drawing.Point(12, 82);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(60, 33);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Plus.AccessibleName = "Plus";
+            this.Plus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.Plus.FlatAppearance.BorderSize = 0;
+            this.Plus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Plus.ForeColor = System.Drawing.Color.Snow;
+            this.Plus.Location = new System.Drawing.Point(12, 82);
+            this.Plus.Name = "Plus";
+            this.Plus.Size = new System.Drawing.Size(60, 33);
+            this.Plus.TabIndex = 2;
+            this.Plus.Text = "+";
+            this.Plus.UseVisualStyleBackColor = false;
+            this.Plus.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -135,26 +135,26 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.Plus);
+            this.Controls.Add(this.Textbox2);
+            this.Controls.Add(this.TextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.Katakana;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TextBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Textbox2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.NumericUpDown TextBox1;
+        private System.Windows.Forms.NumericUpDown Textbox2;
+        private System.Windows.Forms.Button Plus;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
